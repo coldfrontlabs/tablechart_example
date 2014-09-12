@@ -1,0 +1,29 @@
+<?php
+/**
+ * Table to Chart example
+ */
+
+function tablechart_example_styleguide() {
+  $items = array();
+
+  $items['tablechart_example_bar'] = array(
+    'title' => t('Bar Chart Table'),
+    'theme' => 'table',
+    'variables' => '',
+  );
+
+  $items['tablechart_example_line'] = array(
+
+  );
+
+  $items['tablechart_example_area'] = array(
+
+  );
+
+  $items['tablechart_example_donut'] = array(
+
+  );
+
+
+  return $items;
+}
