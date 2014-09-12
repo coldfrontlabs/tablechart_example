@@ -9,7 +9,19 @@ function tablechart_example_styleguide() {
   $items['tablechart_example_bar'] = array(
     'title' => t('Bar Chart Table'),
     'theme' => 'table',
-    'variables' => '',
+    'variables' => array(
+      'header' => array(
+        'data' => t('Phone'),
+        'data' => t('Sales'),
+      ),
+      'rows' => array(
+        array('iPhone 4s', 5000000),
+        array('iPhone 5', 50000000),
+        array('iPhone 5s', 500000000),
+        array('iPhone 6', 5000000000),
+        array('iPhone 6+', 500000000000),
+      ),
+    ),
   );
 
   $items['tablechart_example_line'] = array(
